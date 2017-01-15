@@ -20,11 +20,15 @@ h1 {
   font-weight: 400;
   color: #3B4061;
   font-weight: 700;
+  margin-bottom: 0px;
+  margin-top: 250px;
 }
 
 h2 {
   font-size: 1.875rem;
   font-weight: bold;
+  color: #3B4061;
+  margin-bottom: 0px;
 }
 
 h3 {
@@ -35,6 +39,8 @@ h3 {
 h4 {
   font-size: 1.25rem;
   font-weight: 300;
+  line-height: 1.6;
+  margin-bottom: 10px;
 }
 
 h5 {
@@ -48,7 +54,7 @@ h6 {
 
 p {
   font-size: 1.125rem;
-  line-height: 26px;
+  line-height: 1.6;
 }
 
 .font-light {
@@ -61,6 +67,10 @@ p {
 
 .font-heavy {
   font-weight: 700;
+}
+
+.sub-head{
+  margin-top: 5px;
 }
 
 /* POSITIONING */
@@ -88,11 +98,16 @@ p {
   background-size: contain;
 }
 
+.how-it-works {
+  background-color: rgba(153, 223, 234, .10);
+}
+
 button {
   background-color: #07BEB8;
   border-radius: 5px;
   padding: 15px 50px 15px 50px;
   border: none;
+  margin-right: 40px;
 }
 
 button a {
@@ -105,6 +120,9 @@ button:hover {
   background-color: #FF00E6;
 }
 
+button a:hover{ 
+color: #ffffff;; }
+
 a {
   color: #07BEB8;
   text-decoration: none;
@@ -113,5 +131,16 @@ a {
 a:hover {
   color: #FF00E6;
 }
+
+.btn-header {
+  margin-bottom: 250px;
+}
+
+.line {
+background-color: #3B4061;
+height: 4px;
+}
+
+
 
 

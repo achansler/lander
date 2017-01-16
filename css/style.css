@@ -34,6 +34,7 @@ h2 {
 h3 {
   font-size: 1.5625rem;
   font-weight: bold;
+  margin-bottom: 0px;
 }
 
 h4 {
@@ -41,6 +42,8 @@ h4 {
   font-weight: 300;
   line-height: 1.6;
   margin-bottom: 10px;
+  color: #3B4061;
+  line-height: 1.6;
 }
 
 h5 {
@@ -101,7 +104,7 @@ p {
 
 .how-it-works {
   background-color: rgba(153, 223, 234, .10);
-  padding: 50px 0px 50px 0px;
+  padding: 40px 0px 50px 0px;
 }
 
 button {
@@ -110,6 +113,12 @@ button {
   padding: 15px 50px 15px 50px;
   border: none;
   margin-right: 40px;
+}
+
+.join-cta {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
 }
 
 button a {
@@ -143,6 +152,20 @@ background-color: #3B4061;
 height: 4px;
 }
 
+.channels {
+  padding: 25px 0px 50px 0px;
+}
 
+.channel {
+  margin: 75px 0px 75px 0px;
+}
 
+.three {
+  margin-bottom: 100px;
+}
+
+.cta {
+  background-color: rgba(222,76,13,0.05);
+  padding: 50px 0px 50px 0px;
+}
 

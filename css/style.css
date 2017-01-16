@@ -21,7 +21,7 @@ h1 {
   color: #3B4061;
   font-weight: 700;
   margin-bottom: 0px;
-  margin-top: 250px;
+  margin-top: 225px;
 }
 
 h2 {
@@ -55,6 +55,7 @@ h6 {
 p {
   font-size: 1.125rem;
   line-height: 1.6;
+  color: #636363;
 }
 
 .font-light {
@@ -69,8 +70,8 @@ p {
   font-weight: 700;
 }
 
-.sub-head{
-  margin-top: 5px;
+.sub-header{
+  margin: 5px 0px 30px 0px;
 }
 
 /* POSITIONING */
@@ -100,6 +101,7 @@ p {
 
 .how-it-works {
   background-color: rgba(153, 223, 234, .10);
+  padding: 50px 0px 50px 0px;
 }
 
 button {

@@ -151,7 +151,7 @@ a:hover {
 }
 
 .btn-header {
-  margin-bottom: 250px;
+  margin-bottom: 150px;
 }
 
 .line {
@@ -198,6 +198,13 @@ footer {
   background-color: #3B4061;
   margin-top: 50px;
   padding: 50px 0px 50px 0px;
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+  background: none;
+  background-size: contain;
+}
 }
 
 
